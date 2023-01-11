@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+}
+
+:root{
+    --primary-color:#2874f0;
+}
+
+.container{
+    padding: 0 8px;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 56px;
+}
+
+header .navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+header .logo{
+    display:block;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+header .search .search-box{
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+}
+header .search .search-box input{
+    width: calc(100% - 32px);
+    height: 100%;
+    padding: 0 8px;
+    border: none;
+    outline: none;
+}
+header .search .search-box button{
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+}
+
+header .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+
+}
+header .login button{
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+header .more{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font: 16px;
+    font-weight: 500;
+}
+header .more svg {
+    margin-left: 8px;
+    rotate: -90deg;
+}
+header .cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+}
+header .cart svg{
+    margin-right: 8px;
+} 
+
+/* section 1 */
+
+.s1 {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+ 
+.s1-div {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1-itm1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.s1-itm1 img{
+    
+    height: 64px;
+    width: 64px;
+}
